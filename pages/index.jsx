@@ -18,7 +18,7 @@ const Index = () => {
             <div className="col-lg-8">
               <div className="hero-content wow fadeInLeft delay-0-2s">
                 <h1>
-                  Web <span>Design</span> <i>Agency</i>
+                  Web <span>Design</span> <i>Pickbon</i>
                 </h1>
               </div>
             </div>
@@ -29,25 +29,25 @@ const Index = () => {
             </div>
           </div>
         </div>
-        <div className="container-fluid">
-          <div className="hero-bottom-image">
-            <img src="assets/images/hero/hero.jpg" alt="Hero" />
-            <div className="hero-social">
-              <a href="#">
-                <i className="fab fa-facebook-f" /> <span>Facebook</span>
-              </a>
-              <a href="#">
-                <i className="fab fa-twitter" /> <span>Twitter</span>
-              </a>
-              <a href="#">
-                <i className="fab fa-dribbble" /> <span>Dribbble</span>
-              </a>
-              <a href="#">
-                <i className="fab fa-behance" /> <span>Behance</span>
-              </a>
-            </div>
-          </div>
-        </div>
+        {/*<div className="container-fluid">*/}
+        {/*  <div className="hero-bottom-image">*/}
+        {/*    <img src="assets/images/hero/hero.jpg" alt="Hero" />*/}
+        {/*    <div className="hero-social">*/}
+        {/*      <a href="#">*/}
+        {/*        <i className="fab fa-facebook-f" /> <span>Facebook</span>*/}
+        {/*      </a>*/}
+        {/*      <a href="#">*/}
+        {/*        <i className="fab fa-twitter" /> <span>Twitter</span>*/}
+        {/*      </a>*/}
+        {/*      <a href="#">*/}
+        {/*        <i className="fab fa-dribbble" /> <span>Dribbble</span>*/}
+        {/*      </a>*/}
+        {/*      <a href="#">*/}
+        {/*        <i className="fab fa-behance" /> <span>Behance</span>*/}
+        {/*      </a>*/}
+        {/*    </div>*/}
+        {/*  </div>*/}
+        {/*</div>*/}
         <div className="hero-bg">
           <img src="assets/images/hero/hero-bg.png" alt="lines" />
         </div>

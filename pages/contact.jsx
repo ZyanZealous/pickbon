@@ -23,48 +23,48 @@ const Contact = () => {
                 <div className="row gap-80 pb-30">
                   <div className="col-sm-6">
                     <div className="our-location-address mb-40">
-                      <h5>New York</h5>
+                      <h5>Toronto</h5>
                       <p>
-                        55 One State Road, 2nd Block New York, United States
+                        Canada
                       </p>
-                      <a className="mailto" href="mailto:support@gmail.com">
-                        support@gmail.com
+                      <a className="mailto" href="mailto:pickbon2022@gmail.com">
+                        pickbon2022@gmail.com
                       </a>
                       <br />
-                      <a className="callto" href="callto:+00012345688">
-                        <i className="fas fa-phone" /> +000 (123) 456 88
+                      <a className="callto" href="callto:+16479395884">
+                        <i className="fas fa-phone" /> +1(647)939 5884
                       </a>
                     </div>
                   </div>
-                  <div className="col-sm-6">
-                    <div className="our-location-address mb-40">
-                      <h5>Australia</h5>
-                      <p>67 One State Road, 2nd Block Melbourne, Australia</p>
-                      <a className="mailto" href="mailto:support@gmail.com">
-                        support@gmail.com
-                      </a>
-                      <br />
-                      <a className="callto" href="callto:+00012345688">
-                        <i className="fas fa-phone" /> +000 (123) 456 88
-                      </a>
-                    </div>
-                  </div>
+                  {/*<div className="col-sm-6">*/}
+                  {/*  <div className="our-location-address mb-40">*/}
+                  {/*    <h5>Australia</h5>*/}
+                  {/*    <p>67 One State Road, 2nd Block Melbourne, Australia</p>*/}
+                  {/*    <a className="mailto" href="mailto:support@gmail.com">*/}
+                  {/*      support@gmail.com*/}
+                  {/*    </a>*/}
+                  {/*    <br />*/}
+                  {/*    <a className="callto" href="callto:+00012345688">*/}
+                  {/*      <i className="fas fa-phone" /> +000 (123) 456 88*/}
+                  {/*    </a>*/}
+                  {/*  </div>*/}
+                  {/*</div>*/}
                 </div>
-                <h4>Follow Us</h4>
-                <div className="social-style-two pt-15">
-                  <a href="#">
-                    <i className="fab fa-facebook-f" />
-                  </a>
-                  <a href="#">
-                    <i className="fab fa-twitter" />
-                  </a>
-                  <a href="#">
-                    <i className="fab fa-instagram" />
-                  </a>
-                  <a href="#">
-                    <i className="fab fa-linkedin-in" />
-                  </a>
-                </div>
+                {/*<h4>Follow Us</h4>*/}
+                {/*<div className="social-style-two pt-15">*/}
+                {/*  <a href="#">*/}
+                {/*    <i className="fab fa-facebook-f" />*/}
+                {/*  </a>*/}
+                {/*  <a href="#">*/}
+                {/*    <i className="fab fa-twitter" />*/}
+                {/*  </a>*/}
+                {/*  <a href="#">*/}
+                {/*    <i className="fab fa-instagram" />*/}
+                {/*  </a>*/}
+                {/*  <a href="#">*/}
+                {/*    <i className="fab fa-linkedin-in" />*/}
+                {/*  </a>*/}
+                {/*</div>*/}
               </div>
             </div>
             <div className="col-xl-5 col-lg-6">
@@ -91,7 +91,7 @@ const Contact = () => {
                           id="name"
                           name="name"
                           className="form-control"
-                          defaultValue
+                          // defaultValue
                           placeholder="Full Name"
                           required
                           data-error="Please enter your name"
@@ -109,7 +109,7 @@ const Contact = () => {
                           id="phone_number"
                           name="phone_number"
                           className="form-control"
-                          defaultValue
+                          // defaultValue
                           placeholder="Phone"
                           required
                           data-error="Please enter your Number"
@@ -127,7 +127,7 @@ const Contact = () => {
                           id="email"
                           name="email"
                           className="form-control"
-                          defaultValue
+                          // defaultValue
                           placeholder="Email Address"
                           required
                           data-error="Please enter your Email Address"

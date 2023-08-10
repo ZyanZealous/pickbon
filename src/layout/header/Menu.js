@@ -22,74 +22,74 @@ const DaskTopMenu = () => {
     <ul className="navigation d-none d-lg-flex desktop-menu">
       <li className="dropdown">
         <a href="#">Home</a>
-        <ul>
-          <li className="dropdown">
-            <a href="#">MultiPage</a>
-            <ul>
-              <li>
-                <Link legacyBehavior href="/">
-                  Web Design
-                </Link>
-              </li>
-              <li>
-                <Link legacyBehavior href="index2">
-                  Web Development
-                </Link>
-              </li>
-              <li>
-                <Link legacyBehavior href="index3">
-                  Creative Design Studio
-                </Link>
-              </li>
-              <li>
-                <Link legacyBehavior href="index4">
-                  Web Developer
-                </Link>
-              </li>
-              <li>
-                <Link legacyBehavior href="index5">
-                  Marketing Agency
-                </Link>
-              </li>
-            </ul>
-            <div className="dropdown-btn">
-              <span className="far fa-plus" />
-            </div>
-          </li>
-          <li className="dropdown">
-            <a href="#">OnePage</a>
-            <ul>
-              <li>
-                <Link legacyBehavior href="index1-onepage">
-                  Web Design
-                </Link>
-              </li>
-              <li>
-                <Link legacyBehavior href="index2-onepage">
-                  Web Development
-                </Link>
-              </li>
-              <li>
-                <Link legacyBehavior href="index3-onepage">
-                  Creative Design Studio
-                </Link>
-              </li>
-              <li>
-                <Link legacyBehavior href="index4-onepage">
-                  Web Developer
-                </Link>
-              </li>
-              <li>
-                <Link legacyBehavior href="index5-onepage">
-                  Marketing Agency
-                </Link>
-              </li>
-            </ul>
-            <div className="dropdown-btn">
-              <span className="far fa-plus" />
-            </div>
-          </li>
-        </ul>
+        {/*<ul>*/}
+        {/*  <li className="dropdown">*/}
+        {/*    <a href="#">MultiPage</a>*/}
+        {/*    <ul>*/}
+        {/*      <li>*/}
+        {/*        <Link legacyBehavior href="/">*/}
+        {/*          Web Design*/}
+        {/*        </Link>*/}
+        {/*      </li>*/}
+        {/*      <li>*/}
+        {/*        <Link legacyBehavior href="index2">*/}
+        {/*          Web Development*/}
+        {/*        </Link>*/}
+        {/*      </li>*/}
+        {/*      <li>*/}
+        {/*        <Link legacyBehavior href="index3">*/}
+        {/*          Creative Design Studio*/}
+        {/*        </Link>*/}
+        {/*      </li>*/}
+        {/*      <li>*/}
+        {/*        <Link legacyBehavior href="index4">*/}
+        {/*          Web Developer*/}
+        {/*        </Link>*/}
+        {/*      </li>*/}
+        {/*      <li>*/}
+        {/*        <Link legacyBehavior href="index5">*/}
+        {/*          Marketing Agency*/}
+        {/*        </Link>*/}
+        {/*      </li>*/}
+        {/*    </ul>*/}
+        {/*    <div className="dropdown-btn">*/}
+        {/*      <span className="far fa-plus" />*/}
+        {/*    </div>*/}
+        {/*  </li>*/}
+        {/*  <li className="dropdown">*/}
+        {/*    <a href="#">OnePage</a>*/}
+        {/*    <ul>*/}
+        {/*      <li>*/}
+        {/*        <Link legacyBehavior href="index1-onepage">*/}
+        {/*          Web Design*/}
+        {/*        </Link>*/}
+        {/*      </li>*/}
+        {/*      <li>*/}
+        {/*        <Link legacyBehavior href="index2-onepage">*/}
+        {/*          Web Development*/}
+        {/*        </Link>*/}
+        {/*      </li>*/}
+        {/*      <li>*/}
+        {/*        <Link legacyBehavior href="index3-onepage">*/}
+        {/*          Creative Design Studio*/}
+        {/*        </Link>*/}
+        {/*      </li>*/}
+        {/*      <li>*/}
+        {/*        <Link legacyBehavior href="index4-onepage">*/}
+        {/*          Web Developer*/}
+        {/*        </Link>*/}
+        {/*      </li>*/}
+        {/*      <li>*/}
+        {/*        <Link legacyBehavior href="index5-onepage">*/}
+        {/*          Marketing Agency*/}
+        {/*        </Link>*/}
+        {/*      </li>*/}
+        {/*    </ul>*/}
+        {/*    <div className="dropdown-btn">*/}
+        {/*      <span className="far fa-plus" />*/}
+        {/*    </div>*/}
+        {/*  </li>*/}
+        {/*</ul>*/}
         <div className="dropdown-btn">
           <span className="far fa-plus" />
         </div>
@@ -186,52 +186,52 @@ const DaskTopMenu = () => {
           <span className="far fa-plus" />
         </div>
       </li>
-      <li className="dropdown">
-        <a href="#">Projects</a>
-        <ul>
-          <li>
-            <Link legacyBehavior href="projects">
-              Project Grid
-            </Link>
-          </li>
-          <li>
-            <Link legacyBehavior href="project-list">
-              Project List
-            </Link>
-          </li>
-          <li>
-            <Link legacyBehavior href="project-details">
-              Project Details
-            </Link>
-          </li>
-        </ul>
-        <div className="dropdown-btn">
-          <span className="far fa-plus" />
-        </div>
-      </li>
-      <li className="dropdown">
-        <a href="#">blog</a>
-        <ul>
-          <li>
-            <Link legacyBehavior href="blog">
-              blog Grid
-            </Link>
-          </li>
-          <li>
-            <Link legacyBehavior href="blog-standard">
-              blog standard
-            </Link>
-          </li>
-          <li>
-            <Link legacyBehavior href="blog-details">
-              blog details
-            </Link>
-          </li>
-        </ul>
-        <div className="dropdown-btn">
-          <span className="far fa-plus" />
-        </div>
-      </li>
+      {/*<li className="dropdown">*/}
+      {/*  <a href="#">Projects</a>*/}
+      {/*  <ul>*/}
+      {/*    <li>*/}
+      {/*      <Link legacyBehavior href="projects">*/}
+      {/*        Project Grid*/}
+      {/*      </Link>*/}
+      {/*    </li>*/}
+      {/*    <li>*/}
+      {/*      <Link legacyBehavior href="project-list">*/}
+      {/*        Project List*/}
+      {/*      </Link>*/}
+      {/*    </li>*/}
+      {/*    <li>*/}
+      {/*      <Link legacyBehavior href="project-details">*/}
+      {/*        Project Details*/}
+      {/*      </Link>*/}
+      {/*    </li>*/}
+      {/*  </ul>*/}
+      {/*  <div className="dropdown-btn">*/}
+      {/*    <span className="far fa-plus" />*/}
+      {/*  </div>*/}
+      {/*</li>*/}
+      {/*<li className="dropdown">*/}
+      {/*  <a href="#">blog</a>*/}
+      {/*  <ul>*/}
+      {/*    <li>*/}
+      {/*      <Link legacyBehavior href="blog">*/}
+      {/*        blog Grid*/}
+      {/*      </Link>*/}
+      {/*    </li>*/}
+      {/*    <li>*/}
+      {/*      <Link legacyBehavior href="blog-standard">*/}
+      {/*        blog standard*/}
+      {/*      </Link>*/}
+      {/*    </li>*/}
+      {/*    <li>*/}
+      {/*      <Link legacyBehavior href="blog-details">*/}
+      {/*        blog details*/}
+      {/*      </Link>*/}
+      {/*    </li>*/}
+      {/*  </ul>*/}
+      {/*  <div className="dropdown-btn">*/}
+      {/*    <span className="far fa-plus" />*/}
+      {/*  </div>*/}
+      {/*</li>*/}
     </ul>
   );
 };
@@ -479,12 +479,12 @@ const SingleMenu = () => {
       <li>
         <a href="#projects">project</a>
       </li>
-      <li>
-        <a href="#pricing">pricing</a>
-      </li>
-      <li>
-        <a href="#news">news</a>
-      </li>
+      {/*<li>*/}
+      {/*  <a href="#pricing">pricing</a>*/}
+      {/*</li>*/}
+      {/*<li>*/}
+      {/*  <a href="#news">news</a>*/}
+      {/*</li>*/}
     </ul>
   );
 };
