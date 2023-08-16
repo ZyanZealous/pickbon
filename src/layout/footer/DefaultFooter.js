@@ -15,7 +15,7 @@ const DefaultFooter = () => {
               <div className="footer-logo mb-20 wow fadeInRight delay-0-2s animated">
                 <Link legacyBehavior href="/">
                   <a>
-                    <img src="assets/images/logos/footer-logo.png" alt="Logo" />
+                    <img src="assets/images/logos/logo1.png" alt="Logo" />
                   </a>
                 </Link>
               </div>
@@ -51,15 +51,15 @@ const DefaultFooter = () => {
               <div className="footer-contact-info wow fadeInUp delay-0-3s animated">
                 <a
                   className="theme-btn style-three"
-                  href="mailto:support@gmail.com"
+                  href="mailto:pickbon2020@gmail.com"
                 >
-                  support@gmail.com <i className="far fa-arrow-right" />
+                  pickbon2020@gmail.com <i className="far fa-arrow-right" />
                 </a>
                 <a
                   className="theme-btn style-three phone-number"
-                  href="callto:+000(123)45688"
+                  href="callto:+1(647)9395884"
                 >
-                  +000 (123) 456 88 <i className="far fa-arrow-right" />
+                  +1 (647) 939 5584 <i className="far fa-arrow-right" />
                 </a>
               </div>
             </div>
@@ -76,54 +76,54 @@ const DefaultFooter = () => {
                       Home
                     </Link>
                   </li>
-                  <li>
-                    <Link legacyBehavior href="services">
-                      Popular Services
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="team">
-                      Team Member
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="blog">
-                      Latest News
-                    </Link>
-                  </li>
+                  {/*<li>*/}
+                  {/*  <Link legacyBehavior href="services">*/}
+                  {/*    Popular Services*/}
+                  {/*  </Link>*/}
+                  {/*</li>*/}
+                  {/*<li>*/}
+                  {/*  <Link legacyBehavior href="team">*/}
+                  {/*    Team Member*/}
+                  {/*  </Link>*/}
+                  {/*</li>*/}
+                  {/*<li>*/}
+                  {/*  <Link legacyBehavior href="blog">*/}
+                  {/*    Latest News*/}
+                  {/*  </Link>*/}
+                  {/*</li>*/}
                   <li>
                     <Link legacyBehavior href="contact">
                       Contact Us?
                     </Link>
                   </li>
                 </ul>
-                <ul className="list-style-two wow fadeInUp delay-0-4s animated">
-                  <li>
-                    <Link legacyBehavior href="index">
-                      UI/UX Design
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="index2">
-                      Development
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="index3">
-                      Marketing
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="contact">
-                      Need a Career
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="faqs">
-                      Faqs ?
-                    </Link>
-                  </li>
-                </ul>
+                {/*<ul className="list-style-two wow fadeInUp delay-0-4s animated">*/}
+                {/*  <li>*/}
+                {/*    <Link legacyBehavior href="index">*/}
+                {/*      UI/UX Design*/}
+                {/*    </Link>*/}
+                {/*  </li>*/}
+                {/*  <li>*/}
+                {/*    <Link legacyBehavior href="index2">*/}
+                {/*      Development*/}
+                {/*    </Link>*/}
+                {/*  </li>*/}
+                {/*  <li>*/}
+                {/*    <Link legacyBehavior href="index3">*/}
+                {/*      Marketing*/}
+                {/*    </Link>*/}
+                {/*  </li>*/}
+                {/*  <li>*/}
+                {/*    <Link legacyBehavior href="contact">*/}
+                {/*      Need a Career*/}
+                {/*    </Link>*/}
+                {/*  </li>*/}
+                {/*  <li>*/}
+                {/*    <Link legacyBehavior href="faqs">*/}
+                {/*      Faqs ?*/}
+                {/*    </Link>*/}
+                {/*  </li>*/}
+                {/*</ul>*/}
               </div>
             </div>
           </div>
@@ -132,28 +132,28 @@ const DefaultFooter = () => {
           <div className="row align-items-center">
             <div className="col-xl-8 col-lg-6">
               <div className="footer-bottom-menu pt-40 pb-35 rpb-0 wow fadeInRight delay-0-2s animated">
-                <ul>
-                  <li>
-                    <Link legacyBehavior href="/about">
-                      <a>About</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="services">
-                      Services
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="/faqs">
-                      <a>FAQs</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="services">
-                      How IT Works
-                    </Link>
-                  </li>
-                </ul>
+                {/*<ul>*/}
+                {/*  <li>*/}
+                {/*    <Link legacyBehavior href="/about">*/}
+                {/*      <a>About</a>*/}
+                {/*    </Link>*/}
+                {/*  </li>*/}
+                {/*  <li>*/}
+                {/*    <Link legacyBehavior href="services">*/}
+                {/*      Services*/}
+                {/*    </Link>*/}
+                {/*  </li>*/}
+                {/*  <li>*/}
+                {/*    <Link legacyBehavior href="/faqs">*/}
+                {/*      <a>FAQs</a>*/}
+                {/*    </Link>*/}
+                {/*  </li>*/}
+                {/*  <li>*/}
+                {/*    <Link legacyBehavior href="services">*/}
+                {/*      How IT Works*/}
+                {/*    </Link>*/}
+                {/*  </li>*/}
+                {/*</ul>*/}
               </div>
             </div>
             <div className="col-xl-4 col-lg-6">
@@ -161,7 +161,7 @@ const DefaultFooter = () => {
                 <p>
                   Copyright @2023,{" "}
                   <Link legacyBehavior href="/">
-                    <a>Ygency</a>
+                    <a>Pickbon</a>
                   </Link>{" "}
                   All Rights Reserved
                 </p>

@@ -27,8 +27,8 @@ const Contact = () => {
                       <p>
                         Canada
                       </p>
-                      <a className="mailto" href="mailto:pickbon2022@gmail.com">
-                        pickbon2022@gmail.com
+                      <a className="mailto" href="mailto:pickbon2020@gmail.com">
+                        pickbon2020@gmail.com
                       </a>
                       <br />
                       <a className="callto" href="callto:+16479395884">

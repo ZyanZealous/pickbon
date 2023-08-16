@@ -13,7 +13,7 @@ const Header2 = ({ singleMenu }) => {
                 <Link legacyBehavior href="/">
                   <a>
                     <img
-                      src="assets/images/logos/logo.png"
+                      src="assets/images/logos/logo1.png"
                       alt="Logo"
                       title="Logo"
                     />
@@ -27,24 +27,24 @@ const Header2 = ({ singleMenu }) => {
               {/* Main Menu End*/}
             </div>
             {/* Nav Search */}
-            <NavSearch />
+            {/*<NavSearch />*/}
             {/* Menu Button */}
-            <div className="menu-btns ms-lg-auto">
-              <Link legacyBehavior href="/">
-                <a className="theme-btn style-two me-4">
-                  Let’s Talk <i className="far fa-arrow-right" />
-                </a>
-              </Link>
-              {/* menu sidbar */}
-              <div className="menu-sidebar">
-                <button className="bg-transparent">
-                  <img
-                    src="assets/images/icons/toggler-white.svg"
-                    alt="Toggler"
-                  />
-                </button>
-              </div>
-            </div>
+            {/*<div className="menu-btns ms-lg-auto">*/}
+            {/*  <Link legacyBehavior href="/">*/}
+            {/*    <a className="theme-btn style-two me-4">*/}
+            {/*      Let’s Talk <i className="far fa-arrow-right" />*/}
+            {/*    </a>*/}
+            {/*  </Link>*/}
+            {/*  /!* menu sidbar *!/*/}
+            {/*  <div className="menu-sidebar">*/}
+            {/*    <button className="bg-transparent">*/}
+            {/*      <img*/}
+            {/*        src="assets/images/icons/toggler-white.svg"*/}
+            {/*        alt="Toggler"*/}
+            {/*      />*/}
+            {/*    </button>*/}
+            {/*  </div>*/}
+            {/*</div>*/}
           </div>
         </div>
       </div>

@@ -14,7 +14,7 @@ const DefaultHeader = ({ singleMenu }) => {
                 <Link legacyBehavior href="/">
                   <a>
                     <img
-                      src="assets/images/logos/logo.png"
+                      src="assets/images/logos/logo1.png"
                       alt="Logo"
                       title="Logo"
                     />
@@ -22,22 +22,22 @@ const DefaultHeader = ({ singleMenu }) => {
                 </Link>
               </div>
             </div>
-            <div className="nav-outer ms-lg-auto clearfix">
+            <div className="nav-outer ms-lg-auto clearfix pr-6">
               {/* Main Menu */}
               <Nav singleMenu={singleMenu} />
               {/* Main Menu End*/}
             </div>
             {/* Nav Search */}
-            <NavSearch />
+            {/*<NavSearch />*/}
             {/* Menu Button */}
-            <div className="menu-btns">
-              {/* menu sidbar */}
-              <div className="menu-sidebar">
-                <button>
-                  <img src="assets/images/icons/toggler.svg" alt="Toggler" />
-                </button>
-              </div>
-            </div>
+            {/*<div className="menu-btns">*/}
+            {/*  /!* menu sidbar *!/*/}
+            {/*  <div className="menu-sidebar">*/}
+            {/*    <button>*/}
+            {/*      <img src="assets/images/icons/toggler.svg" alt="Toggler" />*/}
+            {/*    </button>*/}
+            {/*  </div>*/}
+            {/*</div>*/}
           </div>
         </div>
       </div>

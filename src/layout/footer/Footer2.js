@@ -30,7 +30,7 @@ const Footer2 = () => {
               <h5 className="footer-title">Get In Touch</h5>
               <div className="text">
                 <p>Toronto, Canada</p>
-                <a href="mailto:pickbon2022@gmail.com">pickbon2022@gmail.com</a>
+                <a href="mailto:pickbon2020@gmail.com">pickbon2020@gmail.com</a>
                 <br />
                 <a href="callto:+1(647)9395884">+1 (647) 939 5584</a>
               </div>
@@ -47,15 +47,15 @@ const Footer2 = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="/about">
-                      <a>About</a>
+                    <Link legacyBehavior href="/contact">
+                      <a>Contact Us</a>
                     </Link>
                   </li>
-                  <li>
-                    <Link legacyBehavior href="/services">
-                      Services
-                    </Link>
-                  </li>
+                  {/*<li>*/}
+                  {/*  <Link legacyBehavior href="/services">*/}
+                  {/*    Services*/}
+                  {/*  </Link>*/}
+                  {/*</li>*/}
                   {/*<li>*/}
                   {/*  <Link legacyBehavior href="/contact">*/}
                   {/*    <a>Career ?</a>*/}
@@ -67,7 +67,7 @@ const Footer2 = () => {
                   {/*  </Link>*/}
                   {/*</li>*/}
                 </ul>
-                <ul className="list-style-two">
+                {/*<ul className="list-style-two">*/}
                   {/*<li>*/}
                   {/*  <Link legacyBehavior href="/about">*/}
                   {/*    Setting*/}
@@ -78,12 +78,12 @@ const Footer2 = () => {
                   {/*    <a>Privacy Policy</a>*/}
                   {/*  </Link>*/}
                   {/*</li>*/}
-                  <li>
-                    <Link legacyBehavior href="/contact">
-                      Contact Us
-                    </Link>
-                  </li>
-                </ul>
+                {/*  <li>*/}
+                {/*    <Link legacyBehavior href="/contact">*/}
+                {/*      Contact Us*/}
+                {/*    </Link>*/}
+                {/*  </li>*/}
+                {/*</ul>*/}
               </div>
             </div>
           </div>
