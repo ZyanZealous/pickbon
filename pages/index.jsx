@@ -33,9 +33,9 @@ const Index = () => {
               <div className="col-xl-3 col-lg-4">
                 <div className="hero-two-content mb-50 wow fadeInRight delay-0-2s">
                   <p>
-                    Sed ut perspiciatis unde omnis iste natus error voluptatem
-                    accusantium doloremque laudantium totam reme aperiam eaque
-                    abillo inventore
+                    With years of experience in the website design and development industry pride ourselves on
+                    creating unique, creative and quality designs that are developed upon the latest modern
+                    coding and developing techniques.
                   </p>
                   <img
                       className="mt-20"

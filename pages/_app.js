@@ -22,11 +22,11 @@ export default function App({ Component, pageProps }) {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         {/* Title */}
-        <title>Ygency - Web Agency React NextJS Template</title>
+        <title>Pickbon - Web Develop Agency</title>
         {/* Favicon Icon */}
         <link
           rel="shortcut icon"
-          href="assets/images/favicon.png"
+          href="assets/images/logo1.png"
           type="image/x-icon"
         />
         {/* Google Fonts */}

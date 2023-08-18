@@ -150,10 +150,20 @@ const DaskTopMenu = () => {
           {/*  </div>*/}
           {/*</li>*/}
           <li>
-            <Link legacyBehavior href="contact">
-              Contact us
+            <Link legacyBehavior href="/#about">
+              About
             </Link>
           </li>
+            <li>
+                <Link legacyBehavior href="/#services">
+                    Services
+                </Link>
+            </li>
+            <li>
+            <Link legacyBehavior href="/#projects">
+                    Projects
+                </Link>
+            </li>
           {/*<li>*/}
           {/*  <Link legacyBehavior href="pricing">*/}
           {/*    Pricing Plan*/}
@@ -382,11 +392,26 @@ const MobileMenu = () => {
       {/*        <span className="far fa-plus" />*/}
       {/*      </div>*/}
       {/*    </li>*/}
-          <li>
-            <Link legacyBehavior href="contact">
-              Contact us
-            </Link>
-          </li>
+      {/*    <li>*/}
+      {/*      <Link legacyBehavior href="contact">*/}
+      {/*        Contact us*/}
+      {/*      </Link>*/}
+      {/*    </li>*/}
+            <li>
+                <Link legacyBehavior href="/#about">
+                    About
+                </Link>
+            </li>
+            <li>
+                <Link legacyBehavior href="/#services">
+                    Services
+                </Link>
+            </li>
+            <li>
+                <Link legacyBehavior href="/#projects">
+                    Projects
+                </Link>
+            </li>
           {/*<li>*/}
           {/*  <Link legacyBehavior href="pricing">*/}
           {/*    Pricing Plan*/}
@@ -479,11 +504,26 @@ const SingleMenu = () => {
   return (
     <ul className="navigation onepage clearfix">
       <li>
-        <a href="">Home</a>
+        <a href="/">Home</a>
       </li>
-      <li>
-        <a href="contact">Contact Us</a>
-      </li>
+      {/*<li>*/}
+      {/*  <a href="contact">Contact Us</a>*/}
+      {/*</li>*/}
+        <li>
+            <Link legacyBehavior href="/#about">
+                About
+            </Link>
+        </li>
+        <li>
+            <Link legacyBehavior href="/#services">
+                Services
+            </Link>
+        </li>
+        <li>
+            <Link legacyBehavior href="/#projects">
+                Projects
+            </Link>
+        </li>
       {/*<li>*/}
       {/*  <a href="#about">about</a>*/}
       {/*</li>*/}
